@@ -1,0 +1,16 @@
+.wrapper {
+  display: flex;
+  font-size: 30px;
+}
+.homeItem {
+  padding-right: 15px;
+}
+.homeItem:hover {
+  color: blue;
+}
+.moviesItem {
+  padding-bottom: 15px;
+}
+.moviesItem:hover {
+  color: blue;
+}
