@@ -30,9 +30,10 @@ class MovieDetailsPage extends Component {
     } = this.props;
 
     if (state && state.from) {
-      return history.push(state.from);
+      history.push(state.from);
+      return;
     }
-    history.push(routesPath.moviesPage);
+    history.push(routesPath.homePage);
   };
 
   render() {
